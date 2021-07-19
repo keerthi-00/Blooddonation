@@ -1,0 +1,133 @@
+body{
+    background-color: lightgray;
+    margin: 0%;
+}
+.container{
+    width: 100%;
+    margin: 0 0;
+    background: #fff;
+}
+.header{
+    padding: 45px 0 20px 40px;
+}
+.menu a{
+    background:#ff1a1a;
+    color: black;
+    padding: 6px 25px 6px 25px;
+    font-size: 20px;
+    font-family: monospace;
+    text-decoration: none;
+    font-weight: 1000;
+}
+.menu{
+    background: #ff1a1a;
+    padding: 6px 25px 6px 25px;
+}
+aside{
+    float: left;
+    width: 120px;
+    padding: 30px 0 0 40px;
+}
+h2{
+    margin: 10px;
+	color:#ff1a1a;
+	font-size: 30px;
+	font-family:fantasy;
+	font-weight: normal;
+}
+.main{
+    padding: 35px 40px 30px 0;
+	color:black ;
+	font-family: monospace;
+	font-size:15px ;
+	line-height: 30px;
+    text-emphasis: justify;
+    margin: 20px;
+    font-style: oblique;
+}
+footer{
+    padding: 6px 40px 6px 40px;
+	background: #d6d6d6;
+	font-family: fantasy;
+	color: #ff1a1a;
+	font-size: 15px;
+	text-decoration: right;
+}
+.link-title{
+	text-decoration: none;
+	font-size: 40px;
+    color: black;
+    font-family: fantasy
+}
+#home-image img{
+	width: 100%;
+}
+
+/* login page */
+#form {
+	width: 600px;
+	border: 1px solid black;
+	padding: 20px 10px 10px 10px;
+	margin: 30px 30px 30px 300px;
+	background-color:#ff1a1a;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
+body{
+    background-color: lightgray;
+    margin: 0%; 
+}
+#heading{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+    font-style: normal;
+}
+#reg{
+    width: 30%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: black;
+    color:#ff1a1a;
+    border-color: black;
+    margin: 0 0 0 200px;
+    font-size: 15px;
+}
+#name{
+    margin:0 0 0 50px;
+}
+#num{
+    margin:0 0 0 35px;
+}
+#mail{
+    margin:0 0 0 40px;
+}
+#address{
+    margin:0 0 0 30px;
+}
+#age{
+    margin:0 0 0 60px;
+}
+#quote{
+    color:black ;
+	font-family: monospace;
+	font-size:15px ;
+	line-height: 17px;
+    text-emphasis: justify;
+    margin: 20px;
+    font-style: oblique;
+}
+
+/* info page */
+#search{
+    padding: 6px 15px 6px 20px;
+    margin: 25px 150px 450px;
+    color: black;
+    background-color: #ff1a1a;
+    border: black;
+}
+.fa{
+    margin: -150px;
+    background-color: #ff1a1a;
+    padding: 5px;
+    border:black;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+		<link rel="stylesheet" href="css/design.css">
+		<script src="javascript/javascript.js"></script>
+    </head>
+    <body>
+		<div class="container">
+				<header class="header">
+				<a class="link-title" href="/">DONAR INFO</a>
+			</header>
+			<nav class="menu">
+				<a href="/">Home</a>
+				<a href="login.html">Register</a>
+				<a href="info.html">Info</a>
+			</nav>
+			<aside id="quote">
+				<h4>If you’re a blood donor, you’re a hero to someone, somewhere, who received your gracious gift of life.</h4>
+				<h4>To give blood you need neither extra strength nor extra food, and you will save a life.</h4>
+				<h4>To give blood you need neither extra strength nor extra food, and you will save a life.</h4>
+				<h4>Don’t let fools or mosquitoes suck your blood, put it to good use. Donate blood and save a life.</h4>
+			</aside>
+			<article class="main">
+					<h1 id="heading">Register</h1>
+					<div id="form">
+							<form action="php/donarinfo.php">
+									<label for="name">NAME:   </label>
+									<input id="name" type="text" name="name" required>
+									
+									<p>
+										<label for="mail">MAIL ID:   </label>
+										<input id="mail" type="email" name="mail">
+									</p>
+
+									<p>
+										<label for="num">Mob no.:   </label>
+										<input id="num" type="number" name="num">
+									</p>
+
+									<p id=radio>
+										<td></td>
+										<label for="group">BLOOD GROUP:   </label>
+										<input id="group" type="radio" name="group" value="O+ve">
+										<label for="O+ve">O+ve</label>
+										<input id="group" type="radio" name="group" value="O-ve">
+										<label for="O-ve">O-ve</label>
+										<input id="group" type="radio" name="group" value="A+ve">
+										<label for="A+ve">A+ve</label>
+										<input id="group" type="radio" name="group" value="A-ve">
+										<label for="A-ve">A-ve</label>
+										<input id="group" type="radio" name="group" value="B+ve">
+										<label for="B+ve">B+ve</label>
+										<input id="group" type="radio" name="group" value="B-ve">
+										<label for="B-ve">O+ve</label>
+										<input id="group" type="radio" name="group" value="AB+ve">
+										<label for="B+ve">B+ve</label>
+										<input id="group" type="radio" name="group" value="AB-ve">
+										<label for="B+ve">B+ve</label>
+									</p>
+									<p>
+											<label for="address">ADDRESS:   </label>
+											<input id="address" type="text" name="address">
+									</p>
+									<p>
+											<label for="age">AGE:   </label>
+											<input id="age" type="number" name="age">
+									</p>
+									<p>
+											<label for="diseases">DISEASES:   </label>
+											<input id="diseases" type="checkbox" name="num" value="Sugar">
+											<label for="Sugar">Sugar</label>
+											<input id="diseases" type="checkbox" name="num" value="bp">
+											<label for="bp">Blood Pressure</label>
+											<input id="diseases" type="checkbox" name="num" value="cholesterol">
+											<label for="cholesterol">Cholesterol</label>
+									</p>
+									<p>
+											<label for="fir">FIRST TIME BLOOD DONAR:   </label>
+											<input id="fir" type="radio" name="fir" value="yes">
+											<label for="yes">Yes</label>
+											<input id="fir" type="radio" name="fir" value="no">
+											<label for="no">NO</label>
+									</p>
+									<p>
+										<label for="reg"></label>
+										<input id="reg" type="submit" name="reg">
+									</p>
+					</div>
+				</article>
+				<footer>
+					&copy;DONAR INFO &nbsp; Design by Keerthanarajendran 
+				</footer>
+			
